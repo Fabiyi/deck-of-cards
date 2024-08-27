@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+body{
+  background-color: black;
+  
+}
+.container{
+  width: 100%;
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 5px solid white;
+  flex-wrap:wrap;
+}
+
+#box{
+  margin: 1px;
+  width: 80px;
+  height: 100px;
+  gap: 20px;
+}
+#box img{
+  height: 70px;
+  width: 60px;
+}
+
+
